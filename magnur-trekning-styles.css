@@ -1,0 +1,136 @@
+/* Plugin Name: Magnur Trekning
+ * Description: Custom Treknings-System for Budbil.no
+ * Version: 1.0
+ * Author: Einar Magnus Bostad
+ * Author URI: www.magnur.no
+ */
+
+/* styles for the admin page */
+p, table, i {
+    font-size: 16px !important;
+}
+
+.admin-wrapper {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px dotted #b7b5b5;
+}
+
+#logo {
+    width: 150px;
+    height: auto;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#admin-title {
+    font-size: 72px;
+}
+
+#content-area 
+{
+    margin-top: 100px;
+    border-top: 1px dotted #b7b5b5;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+.center {
+    text-align: center;
+}
+
+table tr:nth-child(odd) {
+    background-color: #d8dbe0;
+}
+
+.pdf-btn {
+    background-color: #d8dbe0;
+    margin-bottom: 10px;
+}
+
+h2 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+#stop-btn
+{
+    position: absolute;
+    transform: translate(650px, 0px);
+    font-weight: bold;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    color: white;
+}
+
+#button-container
+{
+    position: absolute;
+    transform: translate(30px, 15px); 
+}
+
+#oversikt-btn 
+{
+    position: absolute;
+    transform: translate(0px, 0px);
+    font-weight: bold;
+    width: 120px;
+    height: 65px;
+}
+#oversikt-bud-btn 
+{
+    position: absolute;
+    transform: translate(0px, 35px);
+    font-weight: bold;
+    width: 120px;
+    height: 30px;
+}
+
+#do-draw-btn
+{
+    position: absolute;
+    transform: translate(130px, 0px);
+    font-weight: bold;
+    width: 120px;
+    height: 65px;
+}
+
+#search-field
+{
+    position: absolute;
+    transform: translate(290px, 5px);
+    font-weight: bold;
+    width: 200px;
+    height: 50px; 
+}
+
+#execute-search-btn
+{
+    position: absolute;
+    transform: translate(490px, 5px);
+    font-weight: bold;
+    width: 70px;
+    height: 50px;  
+}
+
+#radio-box
+{
+    position: absolute;
+    transform: translate(305px, 60px);
+}
+#product-nr {position: absolute; transform: translate(0px, 5px);}
+#product-nr-lbl {position: absolute; transform: translate(20px, 0px);}
+
+#order-nr {position: absolute; transform: translate(90px, 5px);}
+#order-nr-lbl {position: absolute; transform: translate(110px, 0px);}
